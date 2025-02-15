@@ -44,6 +44,8 @@ python manage.py runserver
 
 **MAKE SURE TO ADD /admin/, that is final url is http://127.0.0.1:8000/admin/**
 
+# THANK YOU FOR GIVING ME YOUR PRECIOUS TIME
+
 ENTER CREDENTIALS AND GET LOGIN
 
 THEN CLICK ON Jobs in Job folder
