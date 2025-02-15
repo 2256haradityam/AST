@@ -79,7 +79,8 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'job_db',
         'CLIENT': {
-            'host': 'mongodb+srv://hqnme30:UrHCgEbGH3LUUNgp@cluster0.cdd0z.mongodb.net/job_db?retryWrites=true&w=majority'
+            'host': 'mongodb+srv://hqnme30:UrHCgEbGH3LUUNgp@cluster0.cdd0z.mongodb.net/job_db?retryWrites=true&w=majority',
+            'tls': True
         }
     }
 }
