@@ -1,4 +1,17 @@
 # AST
 WORKING DIRECTORY STRUCTURE
 
-AST/job_project/{job/, job_project/, manage.py}/.gitignore, requirements.txt, runtime.txt, Procfile, render.yaml, README.md
+<pre>
+AST/
+├── job_project/        # Django project root
+│   ├── job/            # Django app
+│   ├── job_project/    # Django project settings
+│   └── manage.py        # Django management script
+│
+├── .gitignore          # Ignore unnecessary files (Optional)
+├── requirements.txt    # Project dependencies
+├── runtime.txt        # Python version specification (Optional)
+├── Procfile            # Render deployment command
+├── render.yaml        # Render configuration (Optional)
+└── README.md          # Project documentation
+</pre>
